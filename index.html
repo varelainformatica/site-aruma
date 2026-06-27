@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Aruma Social — Consultoria em Impacto Social</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500&family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="aruma.css">
+</head>
+<body>
+
+<nav id="nav">
+  <div class="ni">
+    <a class="nb" onclick="go('home')">
+      <img src="logo.png" class="nb-logo" alt="Aruma">
+      <div class="nb-sep"></div>
+      <div class="nb-text">
+        <span class="nb-name">Aruma Social</span>
+      </div>
+    </a>
+    <ul class="nl">
+      <li><a class="on" data-p="home" onclick="go('home')">Início</a></li>
+      <li><a data-p="quem" onclick="go('quem')">Quem Somos</a></li>
+      <li><a data-p="atuacao" onclick="go('atuacao')">O Que Fazemos</a></li>
+    </ul>
+    <a class="nc" onclick="go('contato')">Fale conosco</a>
+  </div>
+</nav>
+
+<div id="page-home" class="page active">
+  <section class="hero">
+    <div class="hero-inner">
+      <div class="hero-main">
+        <div class="hero-l">
+          <p class="hero-eyebrow ai"> Consultoria em Impacto Social</p>
+              <h1 class="hero-word ai d1">
+                <span style="display:block">Estratégia</span>
+                <span style="display:block">e <em>inovação</em></span>
+                <span style="display:block;font-size:0.42em;letter-spacing:0.01em;color:var(--ink3);font-weight:300;padding-top:0.4rem;font-style:normal">para transformar propósito em resultados</span>
+              </h1>
+          <div class="hero-body ai d2">
+            <p class="hero-tagline">
+              <em>Muitos projetos nascem da urgência, do cuidado e do desejo de mudança. Mas sustentar o impacto ao longo do tempo exige organização, coerência e articulação entre financiadores, executores, gestores públicos e os territórios onde as transformações acontecem.
+            </p>
+            <div class="hero-btns">
+              <a class="btn btn-blue" onclick="go('atuacao')">
+                O Que Fazemos <svg viewBox="0 0 16 16"><path d="M3 8h10M8 3l5 5-5 5"/></svg>
+              </a>
+              <a class="btn btn-ghost" onclick="go('quem')">Quem Somos</a>
+            </div>
+          </div>
+        </div>
+        <div class="hero-r">
+          <img id="hero-photo" src="fotohero.jpeg" alt="">
+        </div>
+      </div>
+      <div class="hero-foot ai d3">
+        <p class="hero-caption"></p>
+        <span class="hero-label"></span>
+      </div>
+    </div>
+  </section>
+  
+  <div class="manifesto">
+    <div class="wrap">
+      <div class="mf-inner ai" id="quem">
+        <p class="mf-quote">A Aruma nasce do encontro entre sensibilidade e estratégia, impacto social e inteligência institucional.</p>
+        <div style="height:10px;"></div>
+      </div>
+      <div class="mf-body">
+        <p>É nesse contexto que a Aruma atua: fortalecendo as condições que permitem que iniciativas de impacto gerem resultados consistentes e duradouros.</p>
+        <p>A Aruma Social trabalha lado a lado com organizações da sociedade civil, gestão pública e investimento social privado para transformar conceitos, propósitos e potencialidades dos territórios em resultados concretos. Por meio de metodologias participativas, aprimoramos a governança, impulsionamos a inovação e fortalecemos capacidades institucionais para que cada projeto alcance seu máximo potencial de transformação.</p>
+      </div>
+    </div>
+  </div>
+<div class="solutions">
+  <div class="wrap">
+
+<div class="solutions-head">
+  <div>
+    <h2>Soluções para fortalecer organizações e iniciativas transformadoras</h2>
+  </div>
+
+  <div>
+    <p class="solutions-label">O que desenvolvemos</p>
+
+    <p class="solutions-intro">
+      Abordagens personalizadas que respondem aos desafios e oportunidades de cada contexto. 
+    </p>
+  </div>
+</div>
+
+    <div class="solutions-grid">
+      <div class="solution-card card-governanca">
+        <h3>Governança</h3>
+        <p>Arquitetura institucional e processos</p>
+      </div>
+
+      <div class="solution-card">
+        <span class="solution-num"></span>
+        <h3>Assessoria de Programas, Projetos e Políticas Públicas</h3>
+        <p>Co-criação e estruturação de programas, projetos e políticas públicas, apoiando a elaboração de propostas e estratégias de viabilização.</p>
+      </div>
+
+      <div class="solution-card">
+        <span class="solution-num"></span>
+        <h3>Impacto e Inteligência</h3>
+        <p>Monitoramento, análise e avaliação.</p>
+      </div>
+
+      <div class="solution-card">
+        <span class="solution-num"></span>
+        <h3>Capacitação e Formação</h3>
+        <p>Processos formativos com facilitação territorial e apoio à implementação e ao encerramento de projetos.</p>
+      </div>
+    </div>
+
+  </div>
+</div>
+  <div class="hclose">
+    <div class="wrap">
+      <div class="hclose-in ai">
+        <div class="hclose-left">
+          <div class="hclose-eyebrow"></div>
+          <p class="hclose-q">Das raízes tupi-guarani ára (tempo) e umã (antigo) a Aruma se inspira no amanhecer, símbolo de novos ciclos e transformações.</p>
+        </div>
+        <div>
+          <p>A Aruma Social é uma consultoria internacional, baseada no Brasil e na Alemanha, dedicada a fortalecer organizações e iniciativas que constroem transformação social. Atuamos na interseção entre estratégia, governança, inovação e desenvolvimento organizacional.</p>
+          <a class="btn btn-blue" onclick="go('quem')" style="margin-top:0.5rem">Conheça a Aruma <svg viewBox="0 0 16 16"><path d="M3 8h10M8 3l5 5-5 5"/></svg></a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="pgf"><div class="pgf-in">
+    <div class="pgf-brand"><img src="logo.png" alt=""><span>Aruma Social</span></div>
+    <p class="pgf-copy">© 2026 Aruma Social · Consultoria em Impacto Social</p>
+    <div class="pgf-links"><a onclick="go('quem')">Quem Somos</a><a onclick="go('atuacao')">O Que Fazemos</a><a onclick="go('contato')">Fale Conosco</a></div>
+  </div></div>
+</div>
+
+<div id="page-quem" class="page">
+  <div class="qs-hero">
+    <div class="qs-hero-l">
+      <div class="qs-ey">Quem Somos</div>
+      <h1 class="qs-h1 ai">
+        A Aruma nasce<br>de um encontro:<br>
+        <em>Entre sensibilidade</em><br>e <b>estratégia.</b>
+      </h1>
+    </div>
+    <div class="qs-hero-r">
+      <p class="qs-pull ai">"Trabalhamos na interseção entre sensibilidade e estratégia, entre transformação social e inteligência institucional."</p>
+    </div>
+  </div>
+  <div class="qs-body">
+    <div class="qs-row ai">
+      <div><div class="qs-al">Identidade</div></div>
+      <div>
+        <p class="qp">A Aruma existe para organizar o que precisa ganhar forma. Muitos projetos nascem da urgência, do cuidado e do desejo de mudança — mas crescer de forma sustentável exige organização, coerência e capacidade de compreender o impacto ao longo do tempo.</p>
+        <p class="qp">Nossa visão é fortalecer iniciativas e organizações sociais por meio da estruturação de governança, da construção de lógica de impacto e do desenvolvimento de inteligência institucional. <strong>Buscamos ampliar a capacidade dessas organizações de orientar decisões, sustentar processos e evoluir de forma coerente ao longo do tempo.</strong></p>
+      </div>
+    </div>
+    <div class="qs-row ai">
+      <div><div class="qs-al">Origem</div></div>
+      <div>
+        <p class="qp">A Aruma surge da observação de um desafio recorrente no campo social: a distância entre intenção, estrutura organizacional e capacidade de implementação. Muitas iniciativas possuem relevância social, mas enfrentam limitações institucionais para sustentar seu desenvolvimento.</p>
+        <p class="qp"><em>Aruma. Do Tupi-Guarani, amanhecer: <a onclick="go('home')">Home</a> de um novo ciclo, possibilidade.</em></p>
+      </div>
+    </div>
+    <div class="qs-row ai">
+      <div><div class="qs-al">Posicionamento</div></div>
+      <div>
+        <p class="qp">Trabalhamos com organizações que buscam amadurecimento institucional: organizações da sociedade civil, iniciativas sociais estruturadas e atores em contextos de políticas públicas e desenvolvimento social.</p>
+        <p class="qp"><strong>Nosso foco está na qualificação de capacidades institucionais, não na execução direta de projetos.</strong> A relação com cada organização é construída com base em confiança, clareza e responsabilidade compartilhada. Cada projeto é tratado com escuta, cuidado e precisão.</p>
+      </div>
+    </div>
+    <div class="team-wrap">
+      <div class="team-lbl ai">Equipe</div>
+      <div class="team-grid ai d1">
+        <div class="tc"><div class="tc-init">TA</div><div class="tc-name">Thaís do Amaral Adorno</div><div class="tc-role">Co-fundadora</div><p class="tc-bio">Assistente social com mais de 10 anos de experiência em projetos sociais e políticas públicas. Planejamento estratégico, gestão de projetos e fortalecimento institucional, com experiência internacional em Berlim.</p></div>
+        <div class="tc"><div class="tc-init">MM</div><div class="tc-name">Mariliz Mazzoni Magaton Bento</div><div class="tc-role">Co-fundadora</div><p class="tc-bio">Especialista em gestão de projetos e avaliação de impacto. Mestranda em Gestão e Políticas Públicas pela FGV-EAESP, com atuação em monitoramento, avaliação e uso de evidências na tomada de decisão.</p></div>
+        <div class="tc"><div class="tc-init" style="color:var(--copper)">OA</div><div class="tc-name">Oscar do Amaral Adorno</div><div class="tc-role" style="color:var(--ink3)">Engenheiro, especialista Associado</div><p class="tc-bio">Especialista em transformação organizacional e eficiência de processos, com mais de 15 anos de experiência em consultoria de alta gestão e redesenho institucional.</p></div>
+      </div>
+    </div>
+  </div>
+  <div class="qs-close">
+    <div class="qs-close-in ai">
+      <blockquote class="qs-bq">"A Aruma existe para fortalecer o que sustenta o impacto social: as estruturas, capacidades e decisões institucionais que tornam a transformação possível."</blockquote>
+      <div><p class="qs-cr p">Trabalhamos com organizações que buscam clareza, coerência e sustentabilidade.</p><a class="btn btn-blue" onclick="go('atuacao')">Nossa Atuação <svg viewBox="0 0 16 16"><path d="M3 8h10M8 3l5 5-5 5"/></svg></a></div>
+    </div>
+  </div>
+  <div class="pgf"><div class="pgf-in">
+    <div class="pgf-brand"><img src="logo.png" alt=""><span>Aruma Social</span></div>
+    <p class="pgf-copy">© 2026 Aruma Social</p>
+    <div class="pgf-links"><a onclick="go('home')">Início</a><a onclick="go('atuacao')">O Que Fazemos</a><a onclick="go('contato')">Fale Conosco</a></div>
+  </div></div>
+</div>
+
+<div id="page-atuacao" class="page">
+  <div class="atu-bar"></div>
+  <div class="atu-top">
+    <div class="atu-top-in">
+      <div><div class="atu-ey ai">Nossa Atuação</div><h1 class="atu-h1 ai d1">O trabalho<br>da <em>ARUMA.</em></h1></div>
+      <div class="ai d2"><p style="font-size:1rem;line-height:1.87;color:var(--ink3);margin-bottom:1rem">A Aruma desenvolve soluções estratégicas para organizações, projetos e iniciativas de impacto social.</p><p style="font-size:1rem;line-height:1.87;color:var(--ink3)">Quatro frentes que podem operar de forma independente ou complementar.</p></div>
+    </div>
+  </div>
+
+  <div class="sb accent">
+    <div class="sb-t ai">
+      <div class="sb-num"></div>
+      <h2 class="sb-title">Governança</h2>
+      <p class="sb-lead">Fortalecimento institucional, estratégia organizacional e sustentabilidade. Estruturamos sistemas de governança adaptados à realidade de cada organização: definição de papéis, organização de fluxos de decisão, estruturação de processos internos e elaboração de Relatórios de Atividade.</p>
+      <p class="sb-note">"Governança não é sobre controle. É sobre permitir que uma iniciativa funcione com clareza, responsabilidade e continuidade."</p>
+    </div>
+    <div class="sb-p"><img src="https://images.unsplash.com/photo-1497366811353-6870744d04b2?auto=format&fit=crop&w=1000&q=80" alt="Governança"></div>
+  </div>
+
+  <div class="sb r warm">
+    <div class="sb-p" style="grid-column:1;grid-row:1"><img src="https://images.unsplash.com/photo-1552664730-d307ca884978?auto=format&fit=crop&w=1000&q=80" alt="Método"></div>
+    <div class="sb-t ai" style="grid-column:2;grid-row:1">
+      <div class="sb-num"></div>
+      <h2 class="sb-title">Metodologia <em>ARUMA</em></h2>
+      <p class="sb-lead">Metodologias de escuta, facilitação, articulação e construção coletiva. A Metodologia ARUMA organiza o caminho entre intenção e transformação real em seis dimensões interdependentes. Um sistema adaptável construído a partir da realidade de cada iniciativa.</p>
+      <div class="tools-grid">
+        <p class="tg-lbl">Ferramentas ARUMA</p>
+        <div class="tg-item">Mapa do Problema</div>
+        <div class="tg-item">Canvas de Impacto</div>
+        <div class="tg-item">Matriz de Governança</div>
+        <div class="tg-item">Sistema de Indicadores</div>
+        <div class="tg-item" style="border-bottom:none">Score de Maturidade</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="sb off">
+    <div class="sb-t ai">
+      <div class="sb-num"></div>
+      <h2 class="sb-title">Impacto &amp; <em>Inteligência</em></h2>
+      <p class="sb-lead">Pesquisa, análise territorial, monitoramento e inteligência aplicada ao impacto social. Criamos sistemas personalizados de análise e monitoramento: indicadores qualitativos e quantitativos, dashboards e integração com Power BI.</p>
+      <p class="sb-lead">Nossa abordagem combina escuta qualitativa com análise quantitativa, organizando informações que permitem acompanhar evolução e resultados ao longo do tempo.</p>
+    </div>
+    <div class="sb-p"><img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=1000&q=80" alt="Impacto"></div>
+  </div>
+
+  <div class="sb r accent">
+    <div class="sb-p" style="grid-column:1;grid-row:1"><img src="https://images.unsplash.com/photo-1523240795612-9a054b0db644?auto=format&fit=crop&w=1000&q=80" alt="Capacitação"></div>
+    <div class="sb-t ai" style="grid-column:2;grid-row:1">
+      <div class="sb-num"></div>
+      <h2 class="sb-title">Capacitação</h2>
+      <p class="sb-lead">Facilitação de oficinas e capacitação para equipes, gestores e comunidades. A abordagem combina rigor metodológico com sensibilidade às dinâmicas institucionais, construindo aprendizados que se traduzem em capacidade organizacional real.</p>
+      <p class="sb-note">"Construindo aprendizados que se traduzem em capacidade organizacional real."</p>
+    </div>
+  </div>
+
+  <div class="atu-close">
+    <div class="atu-close-in ai">
+      <p class="atu-close-q">"A Aruma existe para organizar o que precisa ganhar forma."</p>
+      <div><p style="font-size:.94rem;line-height:1.82;color:var(--ink3);margin-bottom:2rem">Cada relação começa por uma conversa.</p><a class="btn btn-blue" onclick="go('contato')">Fale conosco <svg viewBox="0 0 16 16"><path d="M2 8h12M9 3l5 5-5 5"/></svg></a></div>
+    </div>
+  </div>
+  <div class="pgf"><div class="pgf-in">
+    <div class="pgf-brand"><img src="logo.png" alt=""><span>Aruma Social</span></div>
+    <p class="pgf-copy">© 2026 Aruma Social</p>
+    <div class="pgf-links"><a onclick="go('home')">Início</a><a onclick="go('quem')">Quem Somos</a><a onclick="go('contato')">Fale Conosco</a></div>
+  </div></div>
+</div>
+
+<div id="page-contato" class="page" style="background:var(--bg2); padding:5.5rem 0; border-top:1px solid var(--brd)">
+  <div class="cont-top">
+    <div class="cont-top-l">
+      <div class="cont-ey">Contato</div>
+      <h1 class="cont-hl ai"><b>Inicie</b><br>uma <em>conversa.</em></h1>
+    </div>
+    <div class="cont-top-r">
+      <p class="cont-sub ai">Trabalhamos ao lado de organizações para estruturar caminhos possíveis com escuta, cuidado e precisão. Cada relação começa por uma conversa.</p>
+    </div>
+  </div>
+  <div class="cont-body">
+    <div class="cont-grid">
+      <div class="ai">
+        <div class="ci-title">Aruma Social</div>
+        <div class="ci-row"><span class="ci-lbl">E-mail</span><span class="ci-val"><a href="mailto:contato@arumasocial.com">contato@arumasocial.com</a></span></div>
+        <div class="ci-row"><span class="ci-lbl">CNPJ</span><span class="ci-val">64.268.181/0001-14</span></div>
+        <div class="ci-row"><span class="ci-lbl">Sede</span><span class="ci-val">São Paulo, SP — Brasil</span></div>
+        <div class="ci-row"><span class="ci-lbl">Instagram</span><span class="ci-val"><a href="#">@arumasocial</a></span></div>
+        <div class="ci-brand"><img src="logo.png" alt=""><span>Aruma Social</span></div>
+      </div>
+      <div class="cform ai d1">
+        <div class="cform-title">Inicie uma conversa</div>
+        <div class="cf"><label>Nome</label><input type="text" placeholder="Seu nome"></div>
+        <div class="cf"><label>Organização</label><input type="text" placeholder="Nome da organização"></div>
+        <div class="cf"><label>E-mail</label><input type="email" placeholder="seu@email.com"></div>
+        <div class="cf"><label>Área de interesse</label>
+          <select>
+            <option value="">Selecione</option>
+            <option>Governança</option>
+            <option>Metodologia ARUMA</option>
+            <option>Impacto &amp; Inteligência</option>
+            <option>Capacitação</option>
+            <option>Outro</option>
+          </select>
+        </div>
+        <div class="cf"><label>Mensagem</label><textarea placeholder="Como podemos ajudar sua organização?"></textarea></div>
+        <button class="cbtn">Enviar mensagem <svg viewBox="0 0 16 16"><path d="M2 8h12M9 3l5 5-5 5"/></svg></button>
+      </div>
+    </div>
+  </div>
+  <div class="pgf"><div class="pgf-in">
+    <div class="pgf-brand"><img src="logo.png" alt=""><span>Aruma Social</span></div>
+    <p class="pgf-copy">© 2026 Aruma Social · CNPJ 64.268.181/0001-14 · São Paulo, Brasil</p>
+    <div class="pgf-links"><a onclick="go('home')">Início</a><a onclick="go('quem')">Quem Somos</a><a onclick="go('atuacao')">O Que Fazemos</a></div>
+  </div>
+</div>
+</div>
+
+<script src="aruma.js"></script>
+</body>
+</html>
