@@ -4147,5 +4147,44 @@ hr.hr {
   }
 }
 
+/* FALE CONOSCO — RODAPÉ COM LARGURA TOTAL */
+#page-contato .pgf{
+  width:100vw !important;
+  max-width:none !important;
+  margin-left:calc(50% - 50vw) !important;
+  margin-right:calc(50% - 50vw) !important;
+  border-radius:0 !important;
+}
+
+/* FALE CONOSCO — REMOVER ESPAÇO ABAIXO DO RODAPÉ */
+#page-contato{
+  padding-bottom:0 !important;
+}
+
+/* FALE CONOSCO — AUMENTAR A LARGURA DO CARD DO FORMULÁRIO */
+@media (min-width:769px){
+  #page-contato .cont-body{
+    width:90% !important;
+    max-width:1440px !important;
+    margin-left:auto !important;
+    margin-right:auto !important;
+  }
+}
+
+/* FALE CONOSCO — ALINHAR O FORMULÁRIO COM AS LATERAIS DO BANNER */
+@media (min-width:769px){
+  #page-contato .cont-body{
+    width:calc(100vw - 8rem) !important;
+    max-width:none !important;
+    margin-left:calc(50% - 50vw + 4rem) !important;
+    margin-right:calc(50% - 50vw + 4rem) !important;
+  }
+
+  #page-contato .cont-grid{
+    width:100% !important;
+    max-width:none !important;
+  }
+}
+
 
 
